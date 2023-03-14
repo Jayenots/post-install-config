@@ -45,7 +45,7 @@ This tutorial outlines the post-install configuration of the open-source help de
   The name should be System Administrators.
   Then select create Department.
   
-   <p align="center">
+  <p align="center">
   <a href="https://imgur.com/7rsjTRp"><img src="https://i.imgur.com/7rsjTRp.png" title="source: imgur.com" /></a>
   <a href="https://imgur.com/itU05Qe"><img src="https://i.imgur.com/itU05Qe.png" title="source: imgur.com" /></a>
   </p>
@@ -69,13 +69,12 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 - Configure Agents is next
    Make sure you are in admin panel (check top right to see which panel you are in)
-   Select the Agents tab -> Add New Agents  
+   Select the Agents tab => Add New Agents  
    Create and define the roles of agents Jane and John Doe. 
    
    For e.g. Name: Jane Doe.
    
             Email : jane.doe@osticket.com.
-            
             Username: jane.doe.
    
    Click set password and uncheck box that says "send the agent a password reset email".
@@ -90,21 +89,44 @@ This tutorial outlines the post-install configuration of the open-source help de
 <a href="https://imgur.com/HB3o9EK"><img src="https://i.imgur.com/HB3o9EK.png" title="source: imgur.com" /></a>
 <a href="https://imgur.com/FX94epU"><img src="https://i.imgur.com/FX94epU.png" title="source: imgur.com" /></a> 
 <a href="https://imgur.com/HQKtJCA"><img src="https://i.imgur.com/HQKtJCA.png" title="source: imgur.com" /></a>
- </p>
+</p>
    
 - Configure SLA
       Steps: Admin Panel => Manage => SLA => Add New SLA Plan 
              
-   Sev-A (1 hour, 24/7) Name: SEV-A, Grace Period: 1 hr, Schedule dropdown menu: 24/7, Select Add Plan.
-   
-   Sev-B (4 hours, 24/7) Name: SEV-B, Grace Period: 4 hrs, Schedule dropdown menu: 24/7, Select Add Plan.
-   
-   Sev-C (8 hours, business hours) Name: SEV-C, Grace Period: 8 hrs, Schedule dropdown menu: business hours, Select Add Plan
+      👉Sev-A (1 hour, 24/7) Name: SEV-A, Grace Period: 1 hr, Schedule dropdown menu: 24/7, Select Add Plan.
+      👉Sev-B (4 hours, 24/7) Name: SEV-B, Grace Period: 4 hrs, Schedule dropdown menu: 24/7, Select Add Plan.
+      👉Sev-C (8 hours, business hours) Name: SEV-C, Grace Period: 8 hrs, Schedule dropdown menu: business hours,
+      
+     Select Add Plan
 
    <p align="center">
    <a href="https://imgur.com/i1Kwla6"><img src="https://i.imgur.com/i1Kwla6.png" title="source: imgur.com" /></a>
    </p>
 
+- Configure Help Topics
 
+   Make sure you are in admin panel (Always remeber the rule of Admin club: ALWAYS CHECK if you are still in admin club).
+   Select Manage tab => Help Topics => Add New Help Topics
+   
+      👉Business Critical Outage
+      👉Personal Computer Issues
+      👉Equipment Request
+      👉Password Reset
+    
+   <p align="center">
+   <a href="https://imgur.com/aW1lp1I"><img src="https://i.imgur.com/aW1lp1I.png" title="source: imgur.com" /></a>
+   <a href="https://imgur.com/JHaQjJv"><img src="https://i.imgur.com/JHaQjJv.png" title="source: imgur.com" /></a>
+   <a href="https://imgur.com/QYhzczP"><img src="https://i.imgur.com/QYhzczP.png" title="source: imgur.com" /></a>
+   </p>
+   
+   Select Add Topic for each topic, and just like the image for the Business Critical Outage, make 4  the mentioned help topics.
+   
+  🎆 CONGRATULATIONS!!!! 🎆 You're all done with Post Install Configuration for osTicket! 🏅
+  
+  .....
+  ..........
+  ............... for now ⚠️
+  
 </p>
 <br />
