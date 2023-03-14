@@ -33,43 +33,78 @@ This tutorial outlines the post-install configuration of the open-source help de
    Select Permissions tab and check every box under the "Tickets", "Tasks" and "Knowledgebase" section
    Select Add Role
    Create the role Supreme Admin, and give it  accessbility befitting the role: Complete Control.
-
+   
+   <p align="center">
+   <a href="https://imgur.com/KMN1XIc"><img src="https://i.imgur.com/KMN1XIc.png" title="source: imgur.com" /></a>
+   <a href="https://imgur.com/wHg5NVv"><img src="https://i.imgur.com/wHg5NVv.png" title="source: imgur.com" /></a>
+   </p>
+   
 - Configuring Departments is the next step.
   Make sure you are in admin panel (check top right to see which panel you are in)
   Select the Agents tab => Department => Add New Department, 
   The name should be System Administrators.
   Then select create Department.
   
- - Following up is Configuring Teams
+   <p align="center">
+  <a href="https://imgur.com/7rsjTRp"><img src="https://i.imgur.com/7rsjTRp.png" title="source: imgur.com" /></a>
+  <a href="https://imgur.com/itU05Qe"><img src="https://i.imgur.com/itU05Qe.png" title="source: imgur.com" /></a>
+  </p>
+      
+- Following up is Configuring Teams.
    Stay in admin panel (check top right to see which panel you are in, used to hearing this huh? lol)
    Select the Agents tab => Teams => Add New Team
    Name: Level II Support
    Go to the members tab and then select yourself in "Select Agent" dropdown menu
    Select create team.
+   
+  <p align="center">
+  <a href="https://imgur.com/HQKtJCA"><img src="https://i.imgur.com/HQKtJCA.png" title="source: imgur.com" /></a>
+  </p>
+     
+- Allow anyone to create tickets.
+   Make sure that you are in the admin panel (you know where to check).
+   Select the settings => User Settings
+   Make sure box is unchecked:
+   Registration Required: Require registration and login to create tickets
 
-<h2>Allow anyone to create tickets<h2>
- Make sure you are in admin panel (you know where to check)
+- Configure Agents is next
+   Make sure you are in admin panel (check top right to see which panel you are in)
+   Select the Agents tab -> Add New Agents  
+   Create and define the roles of agents Jane and John Doe. 
+   
+   For e.g. Name: Jane Doe.
+   
+            Email : jane.doe@osticket.com.
+            
+            Username: jane.doe.
+   
+   Click set password and uncheck box that says "send the agent a password reset email".
+   
+               👉Set your password to anything you like.
+               👉uncheck box that says "require password change at next login.
+               👉Select set.
+               
+   These agents will be responding to ticket requests from clients Ken and Karen.
+   
+<p align="center">
+<a href="https://imgur.com/HB3o9EK"><img src="https://i.imgur.com/HB3o9EK.png" title="source: imgur.com" /></a>
+<a href="https://imgur.com/FX94epU"><img src="https://i.imgur.com/FX94epU.png" title="source: imgur.com" /></a> 
+<a href="https://imgur.com/HQKtJCA"><img src="https://i.imgur.com/HQKtJCA.png" title="source: imgur.com" /></a>
+ </p>
+   
+- Configure SLA
+      Steps: Admin Panel => Manage => SLA => Add New SLA Plan 
+             
+   Sev-A (1 hour, 24/7) Name: SEV-A, Grace Period: 1 hr, Schedule dropdown menu: 24/7, Select Add Plan.
+   
+   Sev-B (4 hours, 24/7) Name: SEV-B, Grace Period: 4 hrs, Schedule dropdown menu: 24/7, Select Add Plan.
+   
+   Sev-C (8 hours, business hours) Name: SEV-C, Grace Period: 8 hrs, Schedule dropdown menu: business hours, Select Add Plan
 
-Select the Settings -> User Settings
-Make sure box is unchecked:
-Registration Required: Require registration and login to create tickets
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+   <p align="center">
+   <a href="https://imgur.com/i1Kwla6"><img src="https://i.imgur.com/i1Kwla6.png" title="source: imgur.com" /></a>
+   </p>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
