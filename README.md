@@ -125,7 +125,9 @@ This tutorial outlines the post-install configuration of the open-source help de
   🎆 CONGRATULATIONS!!!! 🎆 You're all done with Post Install Configuration for osTicket! 🏅
   
   .....
+  
   ..........
+  
   ............... for now ⚠️
   
 </p>
